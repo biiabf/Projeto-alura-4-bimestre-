@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards do Sistema Solar</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🌌 Sistema Solar</h1>
+        <p>Toque ou passe o mouse nos cartões!</p>
+    </header>
+
+    <main>
+        <section class="flashcards">
+
+            <article class="card" onclick="virarCard(this)">
+                <div class="frente">
+                    <h2>☀️ Sol</h2>
+                    <p>O que é o Sol?</p>
+                </div>
+
+                <div class="verso">
+                    <h2>Resposta</h2>
+                    <p>É uma estrela no centro do Sistema Solar.</p>
+                </div>
+            </article>
+
+            <article class="card" onclick="virarCard(this)">
+                <div class="frente">
+                    <h2>🌍 Terra</h2>
+                    <p>Qual é o nosso planeta?</p>
+                </div>
+
+                <div class="verso">
+                    <h2>Resposta</h2>
+                    <p>A Terra é o planeta onde vivemos.</p>
+                </div>
+            </article>
+
+            <article class="card" onclick="virarCard(this)">
+                <div class="frente">
+                    <h2>🔴 Marte</h2>
+                    <p>Por que Marte é chamado de planeta vermelho?</p>
+                </div>
+
+                <div class="verso">
+                    <h2>Resposta</h2>
+                    <p>Por causa do óxido de ferro presente em sua superfície.</p>
+                </div>
+            </article>
+
+            <article class="card" onclick="virarCard(this)">
+                <div class="frente">
+                    <h2>🪐 Saturno</h2>
+                    <p>O que torna Saturno conhecido?</p>
+                </div>
+
+                <div class="verso">
+                    <h2>Resposta</h2>
+                    <p>Seus grandes anéis formados principalmente por gelo e rochas.</p>
+                </div>
+            </article>
+
+            <article class="card" onclick="virarCard(this)">
+                <div class="frente">
+                    <h2>🌙 Lua</h2>
+                    <p>A Lua é um planeta?</p>
+                </div>
+
+                <div class="verso">
+                    <h2>Resposta</h2>
+                    <p>Não. A Lua é o satélite natural da Terra.</p>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <script>
+        function virarCard(card) {
+            card.classList.toggle("virado");
+        }
+    </script>
+
+</body>
+                  </html>
